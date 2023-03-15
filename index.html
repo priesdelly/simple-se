@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple secret</title>
+</head>
+
+<body>
+    <script>
+        var now = new Date();
+        var thaiYear = new Date().toLocaleString('th-TH-u-ca-buddhist', { year: 'numeric' });
+        var thaiYearInt = parseInt(thaiYear.substring(thaiYear.length - 4, thaiYear.length))
+        var monthInt = now.getMonth() + 1;
+        var dayInt = now.getDate();
+        var dayOfWeekInt = now.getDay() + 1;
+
+        var actualSecret = thaiYearInt + monthInt - dayInt + dayOfWeekInt;
+        document.body.innerHTML = "The actual secret is: " + actualSecret;
+    </script>
+</body>
+
+</html>
