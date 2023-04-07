@@ -1,3 +1,4 @@
 # SimpleSecret
 
-Just for fun 
+Just poc for fun 
+can try https://priesdelly.github.io/simple-secret/
