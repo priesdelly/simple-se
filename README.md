@@ -1,4 +1,4 @@
-# SimpleSecret
+# Simple SE
 
 Just poc for fun 
-can try https://priesdelly.github.io/simple-secret/
+can try https://priesdelly.github.io/simple-se/
