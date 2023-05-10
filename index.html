@@ -23,7 +23,7 @@
         var dayInt = now.getDate();
         var dayOfWeekInt = now.getDay();
 
-        var actual = thaiYearInt + monthInt - dayInt + dayOfWeekInt;
+        var actual = thaiYearInt + monthInt - (dayInt * dayOfWeekInt);
         document.body.innerHTML = actual;
     </script>
 </body>
